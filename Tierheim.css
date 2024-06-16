@@ -8,6 +8,7 @@ nav {
     color: white;
     letter-spacing: 2px;
   }
+
   header {
     background: #cb690f;
     width: fit-content 100%;
@@ -20,11 +21,13 @@ nav {
     justify-content: center;
     flex-direction: column;
   }
+
   ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
   }
+
   /* .navlist {
     background: #22cf87;
     text-align: center;
@@ -37,29 +40,19 @@ nav {
     display: block;
     min-height: 100vh;
   } */
+
   div {
     float: right;
     width: 60%;
   }
+
   /* h3 {
     font-size: 40px;
   } */
+
   p {
     font-size: 20px;
   }
-  
-  /* header, nav, main, footer {
-    width: 100%;
-    box-sizing: border-box;
-  }
-  nav ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-    margin: 0 10px;
-  } */
   
   .sidenav {
     height: 100%; /* 100% Full-height */
@@ -83,6 +76,22 @@ nav {
     transition: 0.3s;
   }
   
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
 
   @media (max-width: 600px) {
     body {
@@ -96,3 +105,10 @@ nav {
       margin: 10px 0;
     }
   }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
