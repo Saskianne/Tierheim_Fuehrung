@@ -104,7 +104,15 @@ nav {
       display: block;
       margin: 10px 0;
     }
-  }
+.muster {
+  margin: 20%;
+  height: auto;
+}
+
+.muster strong {
+  font-family: "Fruktur", display;
+  letter-spacing: 2px;
+}
 
 .footer {
   position: fixed;
