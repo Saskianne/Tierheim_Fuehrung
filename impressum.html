@@ -17,17 +17,28 @@
 </head>
 
 <body>
-<header>
-    <h2>Juristische Sicherheit</h2>
-    <h1>Impressum</h1>
-</header>
-    
-<main>
+    <img 
+      style="float: right"
+      src="imgs/logo_uhlenkrog_neu.png"
+      alt="logo_uhlenkrog_neu"
+      />
+    <header class="Impressum">
+        <h2>Juristische Sicherheit</h2>
+        <h1>Impressum</h1>
+    </header>
+
     <nav>
-        <ul>
-            <li><a href="PM_Main.html">Home</a></li>
-        </ul>
-    </nav>   
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="teich.html">Teich</a>
+        <a href="katzen.html">Katzen</a>
+        <a href="hunde.html">Hunde</a>
+        <a href="impressum.html">Impressum</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    
+<main>  
         <div class="muster">
             <p>
                 <strong>  >Die folgenden Angaben entsprechen den Vorgaben von § 5 TMG: </strong>
@@ -57,7 +68,7 @@
         <li><a href="Impressum.html">Impressum</a></li>
     </ul>
 </footer>
-<nav>  
+<!-- <nav>  
     <p>
         <a href="Impressum.html"></a>
     </p>
@@ -65,7 +76,7 @@
         <ul>
             <li> Kräutergarten </li>
             <li> Tiergehege
-                li>Kaninchen</li>
+                <li>Kaninchen</li>
                 <li>Katzen</li>
                 <li>Hunde</li>
                 <li>Schildkröte</li>
@@ -76,6 +87,6 @@
         
         </ul>
     </p>
-</nav>
+</nav> -->
 </body>
 </html>
