@@ -94,6 +94,9 @@ nav {
   }
 
   @media (min-width: 600px) {
+    header {
+      flex-direction: row;
+    }
     body {
       flex-direction: row;
     }
