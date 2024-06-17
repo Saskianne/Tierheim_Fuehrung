@@ -82,6 +82,15 @@ nav {
     color: #f1f1f1;
   }
 
+  .sidenav .openbtn {
+    position: absolute;
+    top: 0;
+    right: 0%;
+    font-size: 36px;
+    margin-right: 5%;
+    font-weight: bold;
+  }
+
   .sidenav .closebtn {
     position: absolute;
     top: 0;
