@@ -1,5 +1,5 @@
 nav {
-     height:: auto;
+     height: auto;
   }
   
   h1 {
@@ -19,7 +19,7 @@ nav {
     margin: 0;
     padding: 0;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   ul {
