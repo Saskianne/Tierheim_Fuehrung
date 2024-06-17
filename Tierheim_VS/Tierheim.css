@@ -1,0 +1,54 @@
+nav {
+   height: auto;
+}
+
+h1 {
+  font-family: "Fruktur", display;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 200px;
+}
+header {
+  background: #cb690f;
+  width: 100%;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navlist {
+  background: #22cf87;
+  text-align: center;
+  width: 22%;
+  height: 400px;
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+div {
+  float: right;
+  width: 60%;
+}
+h3 {
+  font-size: 40px;
+}
+p {
+  font-size: 20px;
+}
+
+@media (max-width: 430px) {
+  ul {
+    flex-direction: column;
+  }
+}
