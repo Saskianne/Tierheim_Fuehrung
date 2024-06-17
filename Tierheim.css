@@ -94,10 +94,9 @@ nav {
     cursor: pointer;
     font-size: 36px;
     position: absolute;
-    top: 0;
-    right: 0;
     font-size: 36px;
     margin-right: 5%;
+    margin-top: 10%;
     font-weight: bold;
   }
 
