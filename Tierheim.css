@@ -21,7 +21,7 @@
     font-style: normal;
     position: fixed;
     letter-spacing: 2px;
-    color: white;
+    color: rgb(216, 216, 216);
     text-shadow: #1c4d2b;
     font-weight: bold;
     align-content: center;
@@ -108,8 +108,8 @@
     cursor: pointer;
     font-size: 36px;
     position: fixed;
-    top: 20px;
-    right: 5%;
+    top: 18px;
+    right: 3%;
     margin-right: 10px;
     font-weight: bold;
     color: #000000;
@@ -120,11 +120,6 @@
     .sidenav a {font-size: 18px;}
   }
 
-  @media (max-width: 550px) {
-    header {
-      flex-direction: row;
-    }
-  }
 
   @media (min-width: 550px) {
     header {
