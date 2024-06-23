@@ -15,6 +15,14 @@
     flex-direction: column;
     position: relative;
   }
+
+  h1 {
+    font-family: "Frukutur", display;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: #1c4d2b;
+    font-weight: bold;
+  }
   
   .logo {
     align-items: right;
@@ -50,7 +58,7 @@
   .main h3 {
     font-family: "Fruktur";
     font-size: 40px;
-    font-weight: bold;
+    font-weight: normal;
   }
   .main p {
     font-family: sans-serif;
@@ -97,15 +105,25 @@
     font-size: 36px;
     position: fixed;
     top: autos;
-    align-items: right;
+    right: 5%;
     margin-right: 10px;
     font-weight: bold;
-    color: #1c4d2b;
+    color: #000000;
   }
 
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  @media (max-width: 550px) {
+    header {
+      flex-direction: row;
+    }
+    .logo {
+      width: 50%;
+      height: auto;
+    }
   }
 
   @media (min-width: 550px) {
@@ -119,6 +137,9 @@
       }
     body {
       flex-direction: row;
+    }
+    .openbtn {
+      top: -20px;
     }
   }
     nav ul li {
