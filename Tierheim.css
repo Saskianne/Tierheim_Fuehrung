@@ -26,8 +26,11 @@ nav {
   
   .logo {
     align-items: right;
-    margin: 5% 5%;
-    size-adjust: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    top: 0%;
+    max-width: 100%;
+    height: auto;
   }
 
   ul {
@@ -91,12 +94,12 @@ nav {
   .openbtn {
     cursor: pointer;
     font-size: 36px;
-    position: absolute;
+    position: fixed;
     top: autos;
     align-items: right;
-    text-align: right;
     margin-right: 10px;
     font-weight: bold;
+    color: #1c4d2b;
   }
 
   @media screen and (max-height: 450px) {
@@ -104,7 +107,13 @@ nav {
     .sidenav a {font-size: 18px;}
   }
 
-  @media (min-width: 600px) {
+  @media(max-width: 550px) {
+    .logo {
+      size: ;
+    }
+  }
+
+  @media (min-width: 550px) {
     header {
       flex-direction: row;
     }
@@ -117,9 +126,6 @@ nav {
       flex-direction: row;
     }
   }
-    .navlist {
-  
-    }
     nav ul li {
       display: block;
       margin: 10px 0;
@@ -136,7 +142,10 @@ nav {
 
 .footer {
   position: fixed;
-  left: 0;
+  align-items: center;
   bottom: 0;
   text-align: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 1em;
 }
