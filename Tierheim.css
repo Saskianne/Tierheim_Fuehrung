@@ -16,13 +16,18 @@ nav {
     height: fit-content;
     display: flex;
     align-items: center;
-    text-align: right;
-    padding: 20px 10%;
+    padding: 10% 10%;
     margin: 0;
     padding: 0;
     justify-content: center;
     flex-direction: column;
     position: relative;
+  }
+  
+  .logo {
+    align-items: right;
+    margin-right: 10%;
+    size-adjust: flex;
   }
 
   ul {
@@ -31,10 +36,10 @@ nav {
     margin: 0px;
   }
 
-  /* div {
-    float: right;
-    width: 60%;
-  } */
+  div {
+    float: center;
+    width: 80%;
+  }
 
   /* h3 {
     font-size: 40px;
@@ -82,8 +87,8 @@ nav {
     cursor: pointer;
     font-size: 36px;
     position: relative;
-    top: auto;
-    right: 3%;
+    top: autos;
+    right: 10px;
     font-weight: bold;
   }
 
