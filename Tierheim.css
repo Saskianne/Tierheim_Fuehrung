@@ -1,13 +1,5 @@
-nav {
-     height: auto;
-  }
-  
-  h1 {
-    font-family: "Fruktur", display;
-    color: white;
-    letter-spacing: 2px;
-    padding-right: 10%;
-    text-align: center;
+  p {
+    font-size: 20px;
   }
 
   header {
@@ -26,8 +18,8 @@ nav {
   
   .logo {
     align-items: right;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     top: 0%;
     max-width: 100%;
     height: auto;
@@ -64,10 +56,6 @@ nav {
     font-family: sans-serif;
     font-size: 18px;
     font-style: normal;
-  }
-
-  p {
-    font-size: 20px;
   }
   
   .sidenav {
