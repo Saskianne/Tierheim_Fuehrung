@@ -16,12 +16,15 @@
     position: relative;
   }
 
-  h1 {
-    font-family: "Frukutur", display;
+  header h1 {
+    font-family: "Frukutur";
+    font-style: normal;
+    position: fixed;
     letter-spacing: 2px;
     color: white;
     text-shadow: #1c4d2b;
     font-weight: bold;
+    align-content: center;
   }
   
   .logo {
@@ -52,10 +55,10 @@
     text-align: center;
     align-items: center;
     width: 80%;
-    padding: 20px;
+    padding: 20px 20px;
     margin: 10%;
   }
-  .main h3 {
+  h3 {
     font-family: "Fruktur";
     font-size: 40px;
     font-weight: normal;
@@ -104,7 +107,7 @@
     cursor: pointer;
     font-size: 36px;
     position: fixed;
-    top: autos;
+    top: 20px;
     right: 5%;
     margin-right: 10px;
     font-weight: bold;
@@ -138,15 +141,12 @@
     body {
       flex-direction: row;
     }
-    .openbtn {
-      top: -20px;
-    }
   }
     nav ul li {
       display: block;
       margin: 10px 0;
     }
-.muster {
+/* .muster {
   margin: 20%;
   height: auto;
 }
@@ -154,7 +154,7 @@
 .muster strong {
   font-family: "Fruktur", display;
   letter-spacing: 2px;
-}
+} */
 
 footer {
   position: fixed;
