@@ -10,13 +10,13 @@
     align-items: center;
     padding: 10% 10%;
     margin: 0;
-    padding: 0;
+    padding-top: 5px ;
     justify-content: center;
     flex-direction: column;
     position: relative;
   }
 
-  header h1 {
+  h1 {
     font-family: "Frukutur", display;
     font-style: normal;
     position: fixed;
@@ -24,7 +24,7 @@
     color: rgb(216, 216, 216);
     text-shadow: #1c4d2b;
     font-weight: bold;
-    align-content: center;
+    align-content: left;
   }
   
   .logo {
@@ -130,7 +130,7 @@
         top: 0px;
         right: 0px; 
         max-width: 100%;
-        height: auto;
+        height: 100%;
       }
     body {
       flex-direction: row;
