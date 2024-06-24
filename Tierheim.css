@@ -72,7 +72,7 @@
   }
   
   .sidenav {
-    height: fit-content;
+    height: 120%;
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
