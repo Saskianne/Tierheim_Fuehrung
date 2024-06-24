@@ -126,6 +126,9 @@
     header {
       flex-direction: row;
     }
+    .heading {
+      text-align: center;
+    }
       .logo{
         position: absolute;
         top: 0px;
