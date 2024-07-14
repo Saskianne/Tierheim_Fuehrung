@@ -116,6 +116,10 @@
     color: #000000;
   }
 
+  .impressum {
+    flex-direction: column;
+  }
+
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -155,7 +159,7 @@
   letter-spacing: 2px;
 }
 
-.footer {
+footer {
   position: fixed;
   align-items: center;
   bottom: 0;
